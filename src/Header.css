@@ -45,8 +45,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 .header .header-nav .header-container .header-cart svg{
     width: 40px;
     height: 40px;
+}
+.login{
+    text-decoration: none;
+    color: white;
+}
+.login p{
+    font-size: 0.8rem;
 }
