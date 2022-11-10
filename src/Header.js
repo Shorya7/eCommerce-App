@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Header.css"
 import {Link} from 'react-router-dom'
+import {Home} from "./Home";
 export const Header = () => {
   return (
-    <Link to="/" className="header">
+    <Link to="/" >
+    <div className="header">
             <nav className="header-nav">
                 <div className="header-container">
                     <img className="amazon-logo" src="https://mlsvc01-prod.s3.amazonaws.com/fd4e81f3101/a77159a6-cbf4-46a1-a731-522b77da3e42.png?ver=1649349594000 " alt="Amazon"></img>
@@ -33,6 +35,8 @@ export const Header = () => {
                     </Link>
                 </div>
             </nav>
+            </div>
+            <Home/>
     </Link>
   )
 }

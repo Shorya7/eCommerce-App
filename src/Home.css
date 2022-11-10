@@ -1,0 +1,30 @@
+.section-1{
+    width: 100vw;
+    height: auto;
+    background: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/Aug/Apay/GW-PC-Deals-Unrec-3000._CB629506848_.jpg);
+    background-size: cover;
+    display: flex;
+}
+.section-1 .section-1-container{
+    margin: 305px 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    gap: 30px;
+}
+.section-1 .section-1-container .section-1-column{
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+}
+.section-1 .section-1-container .section-1-column .img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.section-1 .section-1-container .section-1-column p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007185;
+
+}
