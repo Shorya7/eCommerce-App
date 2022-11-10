@@ -6,6 +6,7 @@
     justify-content: center;
     position: sticky;
     top: 0;
+    text-decoration: none;
 }
 .header .header-nav{
     margin-top: 2px;
