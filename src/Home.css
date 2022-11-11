@@ -11,10 +11,11 @@
     justify-content: space-evenly;
     align-items: flex-start; 
     gap: 30px;
+    padding-bottom: 20px;
 }
 .section-1 .section-1-container .section-1-column{
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px;
     max-width: 400px;
 }
 .section-1 .section-1-container .section-1-column .img{
@@ -27,4 +28,14 @@
     font-size: 14px;
     color: #007185;
 
+}
+
+.product_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0;
+    background-color: white;
+    padding: 10px 0;
 }
