@@ -9,7 +9,7 @@ export const Product=({id,title,image,price})=>{
                 <strong>{price}</strong>
             </div>
             
-            <button>Add to Basket</button>
+            <button className="basket">Add to Basket</button>
         </div>
     )
 }

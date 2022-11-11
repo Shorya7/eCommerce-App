@@ -1,6 +1,22 @@
 .product{
     width: 400px;
+    /* border: 2px solid lightgray; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .product img{
     width: 300px;
+}
+.p-info strong{
+    line-height: 40px;
+}
+.basket{
+    background-color: #febd68;
+    padding: 4px;
+    border-radius: 3px;
+    border: 2px solid #704b1c;
+    width: 105px;
 }
