@@ -2,6 +2,7 @@ import React from 'react'
 import "./Header.css"
 import {Link} from 'react-router-dom'
 import {Home} from "./Home";
+import { Footer } from './Footer';
 export const Header = () => {
   return (
     <Link to="/" >
@@ -37,6 +38,7 @@ export const Header = () => {
             </nav>
             </div>
             <Home/>
+            <Footer/>
     </Link>
   )
 }

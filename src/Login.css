@@ -27,6 +27,7 @@
     margin-left: 3px;
     height: 26px;
     padding:0 5px;
+    font-weight: 600;
 }
 .regbtn:hover{
     cursor: pointer;
@@ -36,6 +37,7 @@
 }
 .regbtn{
     width:290px;
+    
 }
 .login-cont form h5{
     margin: 4px 0;
