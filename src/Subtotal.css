@@ -1,6 +1,11 @@
 .subtotal button{
     background-color: #febd68;
     border: 2px solid #704b1c;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+    font-weight: 600;
 }
 .subtotal button:hover{
     cursor: not-allowed;
