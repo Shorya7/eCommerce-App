@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./Subtotal.css"
 export const Subtotal=()=>{
     return(
         <div className="subtotal">
