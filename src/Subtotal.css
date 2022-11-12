@@ -1,0 +1,7 @@
+.subtotal button{
+    background-color: #febd68;
+    border: 2px solid #704b1c;
+}
+.subtotal button:hover{
+    cursor: not-allowed;
+}
