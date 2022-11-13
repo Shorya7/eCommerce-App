@@ -11,7 +11,7 @@ export const Header = () => {
                 <div className="header-container">
                     <img className="amazon-logo" src="https://mlsvc01-prod.s3.amazonaws.com/fd4e81f3101/a77159a6-cbf4-46a1-a731-522b77da3e42.png?ver=1649349594000 " alt="Amazon"></img>
                     <div className="header-search">
-                        <input className="search-input" type="text"></input>
+                        <input className="search-input" type="text" placeholder="Search for products, brands and more"></input>
                         <button className="search-button">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
